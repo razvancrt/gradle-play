@@ -1,3 +1,4 @@
+import org.apache.velocity.util.StringUtils;
 import org.junit.*;
 import static org.junit.Assert.*;
 import java.lang.reflect.InvocationTargetException;
@@ -23,6 +24,8 @@ public class SomeMethodsTest {
 		System.out.println("Result of invoked private method is: " + result);
 
 		assertEquals((int)6, result);
+		
+		StringUtils.capitalizeFirstLetter("blablabla"); //dummy compilation test
 		}
 	//dummy comment, committed from web 
 }
