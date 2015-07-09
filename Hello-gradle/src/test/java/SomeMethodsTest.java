@@ -24,5 +24,5 @@ public class SomeMethodsTest {
 
 		assertEquals((int)6, result);
 		}
-	
+	//dummy comment, committed from web 
 }
