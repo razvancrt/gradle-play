@@ -30,3 +30,18 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 */
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+     mavenLocal()
+	 mavenCentral()
+	 maven { url 'http://scaaa089.us.oracle.com:8081/artifactory/repo' }
+}
+
+dependencies {
+	testCompile 'mockito-all:mockito-all:1.9.5'
+}
+
+
