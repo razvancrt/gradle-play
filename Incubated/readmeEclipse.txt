@@ -9,3 +9,6 @@ with cmd line gradle AND eclipse as well, just edit manually the .classpath file
 
 c) Go to Eclipse --> File --> Import --> General - Existing projects into Workspace --> 
 Select root directory as the parent project's dir (the dir containing the file "build.gradle" and the subdir "src")
+
+Nota Bene: if you add a dependency ()in build.gradle) that already exists in the local cache, you won't see modifications in the project's classpath.
+For updating the classpath you should execute again a 'gradle eclipse' command after each dependency added. Be careful, though, that also a "bin" entry will be added in .classpath
