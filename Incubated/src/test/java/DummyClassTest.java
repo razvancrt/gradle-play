@@ -1,1 +1,4 @@
-public class DummyClassTest {}
+public class DummyClassTest {
+	
+	public void dummyMethod() {}
+}
